@@ -1,0 +1,9 @@
+This is a mirror of http://www.vim.org/scripts/script.php?script_id=133
+
+When active, TableTab.vim remaps the <Tab> key in insert mode, to
+the function, which adjusts the tab stops according to the previous
+line.  If this line matches /^\s*[_=*\-]\+ *$/  (it is only of ===,
+--- etc.) the line before is checked.
+
+Should be useful for editing tables.
+
